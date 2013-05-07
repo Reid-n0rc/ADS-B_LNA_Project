@@ -109,6 +109,7 @@
 <text x="10.16" y="11.1125" size="1.778" layer="25" rot="R90">by NØRC</text>
 <text x="7.62" y="-19.05" size="1.778" layer="25" ratio="19" rot="R90">ADS-B FILTER</text>
 <text x="10.16" y="-15.24" size="1.778" layer="25" ratio="19" rot="R90">+LNA</text>
+<text x="19.05" y="-17.78" size="1.778" layer="25" ratio="19" rot="R90">2013</text>
 </plain>
 <libraries>
 <library name="transistor-small-signal">
