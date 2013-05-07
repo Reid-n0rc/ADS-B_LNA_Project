@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -38,23 +38,23 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -73,7 +73,7 @@
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="210" name="Top_No_DRC" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="Bot_No_DRC" color="1" fill="1" visible="no" active="yes"/>
+<layer number="211" name="Bot_No_DRC" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
@@ -3460,7 +3460,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="16.8021" y1="2.54" x2="16.96085" y2="2.38125" width="1.016" layer="1" curve="-90"/>
 </signal>
 <signal name="1">
-<polygon width="0" layer="1" thermals="no">
+<polygon width="0.0254" layer="1" thermals="no">
 <vertex x="-74.87005625" y="7.611584375"/>
 <vertex x="-80.78218125" y="3.798996875"/>
 <vertex x="-80.727640625" y="0.50416875"/>
@@ -3470,7 +3470,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="TP3" pad="1"/>
 </signal>
 <signal name="2">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-70.499328125" y="13.660996875"/>
 <vertex x="-74.01101875" y="11.4372"/>
 <vertex x="-72.527728125" y="9.094871875"/>
@@ -3478,7 +3478,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="3">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-66.987378125" y="15.88438125"/>
 <vertex x="-70.49906875" y="13.660584375"/>
 <vertex x="-69.016296875" y="11.319078125"/>
@@ -3486,7 +3486,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="4">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-36.99745" y="-12.503671875"/>
 <vertex x="-40.509140625" y="-14.727465625"/>
 <vertex x="-39.02636875" y="-17.068975"/>
@@ -3494,7 +3494,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="5">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-33.485759375" y="-10.279875"/>
 <vertex x="-36.99745" y="-12.503671875"/>
 <vertex x="-35.514678125" y="-14.845178125"/>
@@ -3502,7 +3502,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="6">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-40.5387875" y="19.938275"/>
 <vertex x="-44.050478125" y="17.714478125"/>
 <vertex x="-42.56770625" y="15.372971875"/>
@@ -3510,7 +3510,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="7">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-37.027096875" y="22.162071875"/>
 <vertex x="-40.5387875" y="19.938275"/>
 <vertex x="-39.056015625" y="17.596765625"/>
@@ -3518,7 +3518,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="8">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-7.037165625" y="-6.22598125"/>
 <vertex x="-10.54885625" y="-8.449778125"/>
 <vertex x="-9.066084375" y="-10.791284375"/>
@@ -3526,7 +3526,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="9">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-3.52573125" y="-4.001775"/>
 <vertex x="-7.037421875" y="-6.225571875"/>
 <vertex x="-5.55413125" y="-8.567896875"/>
@@ -3534,7 +3534,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="10">
-<polygon width="0" layer="1" thermals="no">
+<polygon width="0.0254" layer="1" thermals="no">
 <vertex x="4.35748125" y="4.52321875"/>
 <vertex x="-2.780265625" y="0.003203125"/>
 <vertex x="-1.74565625" y="-1.630590625"/>
@@ -3544,7 +3544,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="TP4" pad="1"/>
 </signal>
 <signal name="11">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-71.786084375" y="7.923709375"/>
 <vertex x="-72.52773125" y="9.094871875"/>
 <vertex x="-74.87005625" y="7.61158125"/>
@@ -3552,7 +3552,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="12">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-71.044440625" y="6.752546875"/>
 <vertex x="-71.786084375" y="7.923709375"/>
 <vertex x="-74.1284125" y="6.44041875"/>
@@ -3560,63 +3560,63 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="13">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-74.87005625" y="7.61158125"/>
 <vertex x="-74.01101875" y="11.4372"/>
 <vertex x="-72.52773125" y="9.094871875"/>
 </polygon>
 </signal>
 <signal name="14">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-66.987378125" y="15.88438125"/>
 <vertex x="-63.1631" y="15.02564375"/>
 <vertex x="-65.504609375" y="13.542871875"/>
 </polygon>
 </signal>
 <signal name="15">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-39.02636875" y="-17.068975"/>
 <vertex x="-42.85065" y="-16.2102375"/>
 <vertex x="-40.509140625" y="-14.727465625"/>
 </polygon>
 </signal>
 <signal name="16">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-31.15145625" y="-8.80905625"/>
 <vertex x="-32.006328125" y="-12.6161125"/>
 <vertex x="-33.482421875" y="-10.28515"/>
 </polygon>
 </signal>
 <signal name="17">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-44.90200625" y="13.90215"/>
 <vertex x="-44.0471375" y="17.709209375"/>
 <vertex x="-42.57104375" y="15.37824375"/>
 </polygon>
 </signal>
 <signal name="18">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-37.027096875" y="22.16206875"/>
 <vertex x="-33.20281875" y="21.303334375"/>
 <vertex x="-35.544325" y="19.8205625"/>
 </polygon>
 </signal>
 <signal name="19">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-9.066084375" y="-10.791284375"/>
 <vertex x="-12.8903625" y="-9.93255"/>
 <vertex x="-10.54885625" y="-8.449778125"/>
 </polygon>
 </signal>
 <signal name="20">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-1.1834" y="-2.51848125"/>
 <vertex x="-2.0424375" y="-6.344096875"/>
 <vertex x="-3.525728125" y="-4.00176875"/>
 </polygon>
 </signal>
 <signal name="21">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-4.605290625" y="-2.2969875"/>
 <vertex x="-4.0879875" y="-3.113884375"/>
 <vertex x="-1.745659375" y="-1.63059375"/>
@@ -3624,7 +3624,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="22">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-5.12259375" y="-1.4800875"/>
 <vertex x="-4.605290625" y="-2.2969875"/>
 <vertex x="-2.2629625" y="-0.813696875"/>
@@ -3632,7 +3632,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="23">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-65.4994375" y="13.5461875"/>
 <vertex x="-45.566815625" y="-17.930265625"/>
 <vertex x="-43.235684375" y="-16.454065625"/>
@@ -3640,7 +3640,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="24">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-62.77808125" y="15.2695"/>
 <vertex x="-42.845459375" y="-16.206953125"/>
 <vertex x="-40.514328125" y="-14.730753125"/>
@@ -3648,7 +3648,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="25">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-35.53915625" y="19.823875"/>
 <vertex x="-15.606534375" y="-11.652578125"/>
 <vertex x="-13.2754" y="-10.176378125"/>
@@ -3656,7 +3656,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="26">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-32.8178" y="21.5471875"/>
 <vertex x="-12.885178125" y="-9.929265625"/>
 <vertex x="-10.55404375" y="-8.453065625"/>
@@ -3664,7 +3664,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="27">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-47.683696875" y="12.140690625"/>
 <vertex x="-33.482421875" y="-10.28515"/>
 <vertex x="-31.15145625" y="-8.80905625"/>
@@ -3672,7 +3672,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="28">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-44.902034375" y="13.902190625"/>
 <vertex x="-30.700759375" y="-8.52365"/>
 <vertex x="-28.369796875" y="-7.047553125"/>
@@ -3680,7 +3680,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="29">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-4.087984375" y="-3.113884375"/>
 <vertex x="-3.525728125" y="-4.00176875"/>
 <vertex x="-1.1834" y="-2.51848125"/>
@@ -3688,7 +3688,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="30">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-15.9609375" y="15.6352"/>
 <vertex x="-5.12259375" y="-1.4800875"/>
 <vertex x="-2.78026875" y="0.0032"/>
@@ -3696,7 +3696,7 @@ Please make sure your boards conform to these design rules.</description>
 </polygon>
 </signal>
 <signal name="31">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-73.386790625" y="5.269290625"/>
 <vertex x="-62.31925" y="-12.20793125"/>
 <vertex x="-59.976925" y="-10.724640625"/>
