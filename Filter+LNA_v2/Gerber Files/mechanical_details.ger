@@ -1,0 +1,14 @@
+%FSLAX33Y33*%
+%MOMM*%
+%ADD10C,0.3*%
+D10*
+%LNmechanical details_traces*%
+%LNmechanical details_traces*%
+%LNpath*%
+G01*
+X100000Y0D01*
+X100000Y50000*
+X0Y50000*
+X0Y0D02*
+X0Y50000D01*
+M02*
