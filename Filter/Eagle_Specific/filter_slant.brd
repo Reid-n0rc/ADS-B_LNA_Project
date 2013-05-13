@@ -78,10 +78,6 @@
 <vertex x="86.36" y="45.72"/>
 <vertex x="0" y="45.72"/>
 </polygon>
-<dimension x1="0" y1="0" x2="0" y2="44.45" x3="-1.27" y3="22.225" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="45.72" x3="-7.62" y3="22.86" layer="20"/>
-<dimension x1="0" y1="0" x2="82.55" y2="0" x3="41.275" y3="-7.62" layer="20"/>
-<dimension x1="0" y1="0" x2="86.36" y2="0" x3="43.18" y3="-13.97" layer="20"/>
 <text x="2.54" y="43.18" size="1.778" layer="25" ratio="19">CC-BY-SA</text>
 <text x="2.54" y="40.64" size="1.778" layer="25" ratio="19">by NØRC</text>
 <text x="2.54" y="38.1" size="1.778" layer="25" ratio="19">2013</text>

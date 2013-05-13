@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
@@ -79,10 +79,6 @@
 <vertex x="73.66" y="58.42"/>
 <vertex x="0" y="58.42"/>
 </polygon>
-<dimension x1="0" y1="0" x2="0" y2="50.8" x3="-3.81" y3="25.4" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="58.42" x3="-10.16" y3="29.21" layer="20"/>
-<dimension x1="0" y1="0" x2="69.85" y2="0" x3="34.925" y3="-6.35" layer="20"/>
-<dimension x1="0" y1="0" x2="73.66" y2="0" x3="36.83" y3="-13.97" layer="20"/>
 <text x="2.54" y="12.7" size="1.778" layer="25" ratio="19">CC-BY-SA</text>
 <text x="2.54" y="10.16" size="1.778" layer="25" ratio="19">by NØRC</text>
 <text x="2.54" y="7.62" size="1.778" layer="25" ratio="19">2013</text>
